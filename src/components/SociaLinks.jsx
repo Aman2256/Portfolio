@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/aman-tiwari-a56387218/",
       style: "rounded-tr-md",
     },
     {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:amantiwaribhaiya226@gmail.com",
     },
     {
       id: 4,
@@ -41,10 +41,11 @@ const SocialLinks = () => {
         </>
       ),
       style: "rounded-br-md",
-      href: "/Aman Tiwari.pdf",
+      href: "/assets/Aman-Tiwari-Resume.pdf",
       download: true,
     },
   ];
+
   return (
     <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
       <ul>
@@ -58,9 +59,9 @@ const SocialLinks = () => {
             }
           >
             <a
-              href={link.href ? link.href : "/"}
+              href={link.href}
               className="flex justify-between items-center w-full text-white"
-              download={link.download}
+              download={link.download ? link.download : undefined}
               target="_blank"
               rel="noreferrer"
             >

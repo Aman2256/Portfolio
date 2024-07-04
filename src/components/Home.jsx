@@ -12,10 +12,10 @@ const Home = () => {
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          "I'm a full stack developer who loves creating smooth web experiences. 
+          "I'm a Front End developer who loves creating smooth web experiences. 
 I know both the front and back parts of making websites and apps.
  I'm great at building good-looking stuff using tools like React ,Tailwind, Node Js.
           </p>

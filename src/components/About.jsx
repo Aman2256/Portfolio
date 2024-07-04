@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-        👋 Hey there, I'm Aman Tiwari, a passionate full-stack developer. who believes in the power of hard work and smart strategies. 
+        👋 Hey there, I'm Aman Tiwari, a passionate Front End developer. who believes in the power of hard work and smart strategies. 
          I'm all about crafting seamless digital  experiences from front-end finesse to back-end functionality. My code is a blend of innovation and efficiency,
          and I really enjoy making difficult problems into simple and smart solutions. 
         </p>
